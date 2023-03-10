@@ -21,10 +21,10 @@ void main()
     {
         scanf("%d", &bt[i]);
     }
-    // Applying Bubble sort to sort according the Burst time...
+   
     for (i = 0; i < n; i++)
     {
-        for (j = 0; j < n - 1; j++) // corrected variable name 'i' to 'j'
+        for (j = 0; j < n - 1; j++) 
         {
             if (bt[j] > bt[j + 1])
             {
@@ -43,7 +43,7 @@ void main()
     {
         wt[i] = 0;
         tat[i] = 0;
-        for (j = 0; j < i; j++) // corrected variable name 'i' to 'j'
+        for (j = 0; j < i; j++) 
         {
             wt[i] += bt[j];
         }
